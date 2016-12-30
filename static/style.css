@@ -10,7 +10,8 @@ body {
 
 h1 {
     font-weight: 0;
-    font-size: 60pt;
+    font-size: 80pt;
+    height: 10;
     color: lime;
 }
 
@@ -51,12 +52,12 @@ h1 {
   box-sizing: border-box;
 }
 
-.row {
+./*row {
   clear: both;
   margin: 0;
   padding: 2rem 0 0 0;
   width: 100%;
-}
+}*/
 
 .row:after {
   content: '';
