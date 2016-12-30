@@ -67,8 +67,13 @@ h1 {
 
 .headshot {
     height: 400px;
+    border: 15px solid pink;
 }
 
 .LinkedIn {
     height: 200px;
+}
+
+.GitHub {
+    height: 125px;
 }
