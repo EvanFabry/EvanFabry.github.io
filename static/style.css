@@ -5,10 +5,13 @@ body {
     color: black ! important ;
     font-family: 'Roboto Mono', monospace;
     line-height: 1;
+    background-image: url(../img/vapor2.jpg);
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 0;
+    font-size: 60pt;
+    color: lime;
 }
 
 * {
