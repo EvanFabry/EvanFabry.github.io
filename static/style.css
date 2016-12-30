@@ -18,7 +18,7 @@ h1 {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 .col-1 {width: 8.33%;}
@@ -59,4 +59,8 @@ h1 {
   content: '';
   display: block;
   clear: both;
+}
+
+.LinkedIn {
+    height: 200px;
 }
