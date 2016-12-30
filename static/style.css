@@ -61,6 +61,10 @@ h1 {
   clear: both;
 }
 
+.headshot {
+    height: 400px;
+}
+
 .LinkedIn {
     height: 200px;
 }
