@@ -12,7 +12,9 @@ h1 {
     font-weight: 0;
     font-size: 80pt;
     height: 10;
-    color: lime;
+    /*color: lime;*/
+    /*color: rgb(0,255,255);*/
+    color: rgb(0, 100, 100);
 }
 
 * {
