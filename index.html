@@ -11,6 +11,13 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+function setHalfVolume() {
+    var myAudio = document.getElementById("audio1");  
+    myAudio.volume = 0.5; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
+}
+</script>
 </head>
 
 <body>
@@ -49,7 +56,7 @@
             <!-- <div class="col8 pre1"> -->
             <div class="col-4">
                 <img class="headshot" src="img/Shot-2.jpg">
-                <audio controls autoplay>
+                <audio controls autoplay id="audio1" onloadeddata="setHalfVolume()">
                     <source src="media/02 リサフランク420 _ 現代のコンピュー.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
